@@ -34,3 +34,7 @@ The binary stream API is described in detail in the docs of `BufferedIOBase`.
 Other library modules may provide additional ways to create text or binary streams. 
 See `socket.socket.makefile()` for example.
 </blockquote>
+
+This demo uses a Binary I/O object to store the `.png` output of the plot instead of writing it to the disk.
+
+We got the code from this Stack Overflow answer, and adapated it by adding a Flask Template: <https://stackoverflow.com/questions/50728328/python-how-to-show-matplotlib-in-flask>
